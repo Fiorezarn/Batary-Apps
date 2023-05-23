@@ -19,7 +19,6 @@ const home = {
   async afterRender() {
     const restaurants = await RestauranAppsSource.home();
     const restaurantsitem = document.querySelector('#list');
-    console.log(restaurants);
     restaurants.forEach((restaurant) => {
       restaurantsitem.innerHTML += createRestoItemTemplate(restaurant);
     });

@@ -5,7 +5,7 @@ const createRestoItemTemplate = (data) => `
 <a class="card" href="./#/detail/${data.id}">
   <div class="card_item">
     <div class="thumb_container">
-      <img class="card_thumb" src="${data.pictureId ? CONFIG.BASE_IMAGE_URL + data.pictureId : 'images/heros/hero-image_2.jpg'}" crossorigin="anonymous" alt="${data.name}">
+      <img class="card_thumb lazyload" data-src="${data.pictureId ? CONFIG.BASE_IMAGE_URL + data.pictureId : 'images/heros/hero-image_2.jpg'}" crossorigin="anonymous" alt="${data.name}">
     </div>
     <div class="kota">${data.city}</div>
     <div class="card_content">
@@ -23,7 +23,7 @@ const createRestoItemTemplate = (data) => `
 const createRestoDetailTemplate = (data) => `
   <div class="detail">
   <div class="image" id="image">
-  <img class="image-detail" src="${CONFIG.BASE_IMAGE_URL + data.pictureId}" crossorigin="anonymous" alt="${data.name}" />
+  <img class="image-detail lazyload" data-src="${CONFIG.BASE_IMAGE_URL + data.pictureId}" crossorigin="anonymous" alt="${data.name}" />
   </div>
   <div class="deskripsi">
   <h1 class="detail-title" id="data-title"> ${data.name} </h1>
