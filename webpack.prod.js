@@ -1,4 +1,3 @@
-const path = require('path');
 const { merge } = require('webpack-merge');
 const { GenerateSW } = require('workbox-webpack-plugin');
 const common = require('./webpack.common');

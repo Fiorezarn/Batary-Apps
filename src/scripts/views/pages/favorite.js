@@ -18,7 +18,7 @@ const favorite = {
 
     if (resto.length === 0) {
       restaurantsContainer.innerHTML = `
-      <h3 class="nothing">Tidak Ada Favorite</h3>
+      <h3 class="nothing">Anda belum menambahkan favorite</h3>
       `;
     } else {
       const totalRest = resto.length;

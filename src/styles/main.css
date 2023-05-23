@@ -123,8 +123,8 @@ nav ul.active {
         min-width: 1000px;
     }
     .nothing {
-        width: 100%;
-        margin-left: 100%;
+        width: 90%;
+        margin-left: 30%;
         font-size: medium;
       }
 }
@@ -190,9 +190,9 @@ nav ul.active {
     cursor: pointer;
   }
   .nothing {
-    width: 90%;
-    margin-left: 30%;
-    font-size: medium;
+    margin-top: 130px;
+    margin-left: 43px;
+    width: 300px;
   }
 
 }
@@ -247,6 +247,11 @@ nav ul.active {
     color: white;
     cursor: pointer;
   }
+  .nothing {
+    margin-top: 120px;
+    margin-left: 40px;
+    width: 300px;
+  }
 
 }
 @media screen and (min-width: 550px){
@@ -270,6 +275,11 @@ nav ul.active {
     }
     .judul-review{
         margin-top: 70px;
+    }
+    .nothing {
+        margin-top: 120px;
+        margin-left: 20px;
+        width: 450px;
     }
 }
 
@@ -305,6 +315,10 @@ nav ul.active {
     }
     .judul-review{
         margin-top: 70px;
+    }
+    .nothing {
+        margin-top: 100px;
+        margin-left: 150px;
     }
 }
 
@@ -383,8 +397,8 @@ nav ul.active {
         text-align: left;
     }
     .nothing {
-        width: 90%;
-        margin-left: 450px;
-        font-size: medium;
+        width: 700px;
+        margin-top: 100px;
+        margin-left: 265px ;
       }
 }
